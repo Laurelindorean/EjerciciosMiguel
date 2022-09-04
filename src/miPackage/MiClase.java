@@ -16,6 +16,7 @@ public class MiClase {
 		// TODO Auto-generated method stub
 		System.out.println("Hello git!");	
 		// Probando una cosita
+		System.out.println("Estoy generando algorisssmos");
 	}
 
 }
