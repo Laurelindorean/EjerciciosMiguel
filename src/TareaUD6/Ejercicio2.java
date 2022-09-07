@@ -14,7 +14,7 @@ public class Ejercicio2 {
 
 		public int enteroRandom(int rangoMin, int rangoMax) {
 			Random r = new Random();	
-			return r.nextInt(rangoMax)+rangoMin;
+			return r.nextInt(rangoMax - rangoMin + 1)+rangoMin;
 		}
 	
 }
