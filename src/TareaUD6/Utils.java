@@ -6,7 +6,11 @@ import java.util.Scanner;
 public class Utils {
 	public static int pedirNumero() {
 		Scanner sc = new Scanner(System.in);
+		if (!sc.hasNextInt()) {
+			System.out.println("Error. Tienes que introducir un numero entero");
+		}
 		return sc.nextInt();
+
 	}
 
 	public static boolean esPrimo(int numero) {
